@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kenangan foto kecil untuk dua orang yang berjauhan. Kenalan dengan konsep Kedip dan pilihan desain stripnya.">
+    <meta name="theme-color" content="#FFF4EA">
+    <link rel="icon" type="image/svg+xml" href="/assets/kedip-mark.svg">
+    <title>Kedip | Kenangan kecil untuk yang berjauhan</title>
+    <link rel="preload" href="/fonts/fredoka-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Langsung ke isi</a>
+    <header class="site-header">
+      <a class="brand-link" href="#home" aria-label="Kedip, kembali ke halaman utama">
+        <img class="brand-logo" src="/assets/kedip-lockup.svg" alt="Kedip" width="182" height="53">
+        <span class="brand-fallback" hidden>Kedip</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navigasi utama">
+        <a href="#story">Cerita Kedip</a>
+        <a href="#formats">Format strip</a>
+        <a href="/auth.html">Masuk</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero page-width" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Studio foto online untuk berdua</p>
+          <h1 id="hero-title">Kedip sebentar,<br><span class="headline-highlight">kita ketemu.</span></h1>
+          <p class="hero-description">Momen kecil bareng, meski kota kalian beda. Simpan rasanya dalam satu strip foto.</p>
+          <a class="button button-primary" href="#formats">Lihat pilihan strip</a>
+          <p class="concept-note">Ini pratinjau konsep Kedip. Bilik foto dan penyimpanan belum tersedia.</p>
+        </div>
+        <div class="hero-art" role="img" aria-label="Ilustrasi strip foto dengan empat bingkai">
+          <span class="hero-caption">Satu layar, dua cerita</span>
+          <div class="hero-strip">
+            <img class="hero-mark" src="/assets/kedip-mark.svg" alt="" aria-hidden="true" width="48" height="48" fetchpriority="high">
+            <span class="hero-frame">Foto 1</span>
+            <span class="hero-frame">Foto 2</span>
+            <span class="hero-frame">Foto 3</span>
+            <span class="hero-frame">Foto 4</span>
+            <span class="hero-signature">kedip sebentar</span>
+          </div>
+          <span class="film-perforation film-perforation-top" aria-hidden="true"></span>
+          <span class="film-perforation film-perforation-bottom" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <section class="story-section" id="story" aria-labelledby="story-title">
+        <div class="page-width story-inner">
+          <div class="story-intro" data-reveal>
+            <p class="section-kicker">Jarak boleh jauh</p>
+            <h2 id="story-title">Momen berdua<br>tetap bisa disimpan.</h2>
+            <p>Kedip dirancang untuk mengubah panggilan jarak jauh jadi kenangan yang bisa kalian lihat lagi.</p>
+          </div>
+          <ol class="story-steps" data-reveal>
+            <li>
+              <span class="step-index">01</span>
+              <div>
+                <h3>Masuk ke bilik</h3>
+                <p>Terhubung berdua lewat kode undangan.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-index">02</span>
+              <div>
+                <h3>Kedip bareng</h3>
+                <p>Hitung mundur, lalu empat foto tersinkron.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-index">03</span>
+              <div>
+                <h3>Pilih bingkai</h3>
+                <p>Atur tampilan strip dengan gaya pilihan kalian.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-index">04</span>
+              <div>
+                <h3>Simpan kenangan</h3>
+                <p>Strip pilihan berdua masuk ke galeri bersama.</p>
+              </div>
+            </li>
+          </ol>
+          <p class="story-disclaimer">Alur ini menggambarkan rencana produk, belum menjadi fitur yang bisa digunakan.</p>
+        </div>
+      </section>
+
+      <section class="formats-section" id="formats" aria-labelledby="formats-title">
+        <div class="page-width">
+          <div class="formats-heading" data-reveal>
+            <div>
+              <p class="section-kicker">Bingkai pilihan</p>
+              <h2 id="formats-title">Kenangan, gaya kalian.</h2>
+            </div>
+            <p>Pilih format dan lihat susunan strip yang cocok buat momen kalian.</p>
+          </div>
+          <div class="gallery-shell" id="gallery-content" data-reveal>
+            <div class="static-preview" role="img" aria-label="Contoh strip 2R Klasik dengan empat foto placeholder">
+              <img class="static-art" src="/assets/strips/2r/klasik.svg" alt="" aria-hidden="true" width="600" height="1800">
+            </div>
+            <noscript>
+              <p class="noscript-note">Pratinjau 2R tersedia. Aktifkan JavaScript untuk memilih format dan desain lainnya.</p>
+            </noscript>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-section" aria-labelledby="closing-title">
+        <div class="page-width closing-inner" data-reveal>
+          <img src="/assets/kedip-mark.svg" alt="" aria-hidden="true" width="64" height="64">
+          <div>
+            <p class="section-kicker">Biar jarak cuma angka</p>
+            <h2 id="closing-title">Mulai dari satu momen kecil.</h2>
+          </div>
+          <a class="button button-light" href="#formats">Jelajahi desain strip</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-width footer-inner">
+        <a class="footer-home" href="#home">Kedip sebentar, kita ketemu.</a>
+        <p>Konsep studio foto online untuk momen jarak jauh.</p>
+        <a class="back-to-top" href="#home">Kembali ke atas</a>
+      </div>
+    </footer>
+  </body>
+</html>

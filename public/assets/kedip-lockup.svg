@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 300" width="1040" height="300" role="img" aria-labelledby="title">
+  <title id="title">Kedip</title>
+  <rect width="1040" height="300" fill="#FFF4EA"/>
+  <g transform="translate(50 50) scale(0.39)">
+    <rect width="512" height="512" rx="120" fill="#FF5A6E"/>
+    <circle cx="176" cy="240" r="68" fill="#FFF4EA"/>
+    <circle cx="190" cy="232" r="30" fill="#2A1A33"/>
+    <circle cx="200" cy="222" r="9" fill="#FFF4EA"/>
+    <path d="M286 262 Q346 188 406 262" fill="none" stroke="#FFF4EA" stroke-width="30" stroke-linecap="round"/>
+    <path d="M396 128 L405 156 L433 165 L405 174 L396 202 L387 174 L359 165 L387 156 Z" fill="#FFC857"/>
+    <path d="M196 352 Q256 392 316 352" fill="none" stroke="#2A1A33" stroke-width="22" stroke-linecap="round" opacity="0.9"/>
+  </g>
+  <g transform="translate(300 62) scale(1.55)" fill="none" stroke="#2A1A33" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 0V100 M48 40L10 74 M24 62L50 100"/>
+    <path d="M80 70H140 A30 30 0 1 0 131.2 91.2"/>
+    <circle cx="190" cy="70" r="30"/>
+    <path d="M220 0V100"/>
+    <path d="M252 40V100"/>
+    <path d="M284 40V130"/>
+    <circle cx="314" cy="70" r="30"/>
+    <path d="M252 6V6.1" stroke="#FF5A6E" stroke-width="20"/>
+  </g>
+</svg>
